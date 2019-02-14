@@ -1,0 +1,1 @@
+Invoke-Expression -Command (aws ecr get-login --no-include-email --region {{YOUR_REGION}} --profile {{YOUR_PROFILE}}); ./deploy/deploy.bat
